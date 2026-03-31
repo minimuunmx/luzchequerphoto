@@ -713,9 +713,8 @@ blockquote p {
 /* ── Testimonials ─────────────────────── */
 
 .testimonials {
-    padding: clamp(4rem, 8vw, 7rem) clamp(1.5rem, 5vw, 4rem);
+    padding: clamp(4rem, 8vw, 7rem) 0;
     background: var(--teal);
-    overflow: hidden;
 }
 
 .testimonials h2 {
@@ -724,7 +723,7 @@ blockquote p {
     font-weight: 300;
     color: var(--cream);
     margin-bottom: 2.5rem;
-    padding-left: clamp(0rem, 2vw, 2rem);
+    padding-left: clamp(1.5rem, 5vw, 4rem);
 }
 
 .testimonials-track {
