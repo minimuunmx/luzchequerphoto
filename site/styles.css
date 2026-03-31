@@ -714,7 +714,7 @@ blockquote p {
 
 .testimonials {
     padding: clamp(4rem, 8vw, 7rem) clamp(1.5rem, 5vw, 4rem);
-    background: var(--navy);
+    background: var(--teal);
     overflow: hidden;
 }
 
