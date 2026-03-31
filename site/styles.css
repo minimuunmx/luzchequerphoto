@@ -710,6 +710,64 @@ blockquote p {
     margin-bottom: 1rem;
 }
 
+/* ── Testimonials ─────────────────────── */
+
+.testimonials {
+    padding: clamp(4rem, 8vw, 7rem) clamp(1.5rem, 5vw, 4rem);
+    background: var(--navy);
+    overflow: hidden;
+}
+
+.testimonials h2 {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 300;
+    color: var(--cream);
+    margin-bottom: 2.5rem;
+    padding-left: clamp(0rem, 2vw, 2rem);
+}
+
+.testimonials-track {
+    display: flex;
+    gap: 1.2rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding: 0 clamp(0rem, 2vw, 2rem) 1rem;
+}
+
+.testimonials-track::-webkit-scrollbar {
+    display: none;
+}
+
+.testimonial-card {
+    flex: 0 0 clamp(280px, 75vw, 380px);
+    scroll-snap-align: start;
+    background: var(--cream);
+    border-radius: 12px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonial-card p {
+    font-family: var(--font-display);
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--navy);
+    margin-bottom: 1.2rem;
+}
+
+.testimonial-author {
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--text-light);
+}
+
 /* ── Contact ───────────────────────────── */
 
 .contact {
