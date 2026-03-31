@@ -195,21 +195,37 @@ document.addEventListener('DOMContentLoaded', () => {
     fadeElements.forEach(el => fadeObserver.observe(el));
 
 
-    // ── Contact Form ──────────────────────────
+    // ── Contact Form (Netlify Forms) ─────────
     const contactForm = document.getElementById('contactForm');
     if (contactForm) contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
         const btn = contactForm.querySelector('.submit-btn');
         const originalText = btn.textContent;
-        btn.textContent = currentLang === 'nl' ? 'Verzonden!' : 'Sent!';
-        btn.style.background = '#5F929F';
-        btn.style.color = '#F7F3EE';
-        setTimeout(() => {
-            btn.textContent = originalText;
-            btn.style.background = '';
-            btn.style.color = '';
+        const formData = new FormData(contactForm);
+
+        fetch('/', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: new URLSearchParams(formData).toString()
+        }).then(() => {
+            btn.textContent = currentLang === 'nl' ? 'Verzonden!' : 'Sent!';
+            btn.style.background = '#5F929F';
+            btn.style.color = '#F7F3EE';
             contactForm.reset();
-        }, 2500);
+            setTimeout(() => {
+                btn.textContent = originalText;
+                btn.style.background = '';
+                btn.style.color = '';
+            }, 3000);
+        }).catch(() => {
+            btn.textContent = currentLang === 'nl' ? 'Fout, probeer opnieuw' : 'Error, try again';
+            btn.style.background = '#c0392b';
+            setTimeout(() => {
+                btn.textContent = originalText;
+                btn.style.background = '';
+                btn.style.color = '';
+            }, 3000);
+        });
     });
 
     // ── Smooth scroll for anchor links ────────
