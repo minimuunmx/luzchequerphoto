@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "family_image": "/porfolio/families/DSC01907.jpg",
+    "brands_image": "/porfolio/brands/DSC03379.jpg"
+  },
+  "family_tab": {
+    "heading_en": "Maternity, newborn, baby, family and milestone photography.",
+    "heading_nl": "Zwangerschap, newborn, baby, gezins- en milestonefotografie.",
+    "description_en": "A space for motherhood, family connection, and the moments you'll want to remember for years to come. Created with a natural, heartfelt and timeless approach.",
+    "description_nl": "Een plek voor moederschap, familieverbinding en de momenten die je nog jaren wilt herinneren. Gemaakt met een natuurlijke, oprechte en tijdloze aanpak.",
+    "cta_en": "See all family work",
+    "cta_nl": "Bekijk al het gezinswerk",
+    "grid_images": [
+      { "image": "/porfolio/families/DSC04363.jpg", "alt": "Family photography" },
+      { "image": "/porfolio/families/luzchequerphoto-84.jpg", "alt": "Family photography" },
+      { "image": "/porfolio/families/DSC03801.jpg", "alt": "Family photography" },
+      { "image": "/porfolio/families/DSC01540.jpg", "alt": "Family photography" },
+      { "image": "/porfolio/families/luzchequerphoto-36.jpg", "alt": "Family photography" },
+      { "image": "/porfolio/families/DSC04311.jpg", "alt": "Family photography" }
+    ]
+  },
+  "brands_tab": {
+    "heading_en": "Photo, video, brand content, product imagery, founder sessions and social media content.",
+    "heading_nl": "Foto, video, merkcontent, productfotografie, founder-sessies en social media content.",
+    "description_en": "A space for businesses and founders who need strong, intentional visuals to show up consistently and professionally online.",
+    "description_nl": "Een plek voor bedrijven en founders die sterke, doordachte beelden nodig hebben om consistent en professioneel online aanwezig te zijn.",
+    "cta_en": "See all brand work",
+    "cta_nl": "Bekijk al het merkwerk",
+    "grid_images": [
+      { "image": "/porfolio/brands/DSC03375.jpg", "alt": "Brand photography" },
+      { "image": "/porfolio/brands/DSC07817.jpg", "alt": "Brand photography" },
+      { "image": "/porfolio/brands/DSC05580.jpg", "alt": "Brand photography" },
+      { "image": "/porfolio/brands/DSC09235.jpg", "alt": "Brand photography" },
+      { "image": "/porfolio/brands/DSC07991.jpg", "alt": "Brand photography" },
+      { "image": "/porfolio/brands/MAURO-71-2.jpg", "alt": "Brand photography" }
+    ]
+  },
+  "about": {
+    "paragraphs": [
+      {
+        "en": "Hi! I'm so happy to see you here. Welcome! As long as I can remember, I've always loved capturing moments: friends, family, things, and places.",
+        "nl": "Hoi! Wat leuk dat je hier bent. Welkom! Zolang ik me kan herinneren, heb ik altijd al graag momenten vastgelegd: vrienden, familie, dingen en plekken."
+      },
+      {
+        "en": "I studied Fashion Design and graduated with honors at IBERO in Mexico City, where I took photography and editing classes. That experience gave me a strong technical foundation, which I later used for different projects and eventually for my own business.",
+        "nl": "Ik heb Modeontwerp gestudeerd en cum laude afgestudeerd aan IBERO in Mexico-Stad, waar ik fotografie- en bewerkingslessen volgde. Die ervaring gaf me een sterke technische basis, die ik later gebruikte voor verschillende projecten en uiteindelijk voor mijn eigen bedrijf."
+      },
+      {
+        "en": "Becoming a mom has transformed me in every possible way. Now I know that moments are fleeting, and that photographs are a beautiful gift for today - but an incredible treasure for the future.",
+        "nl": "Moeder worden heeft me op alle mogelijke manieren veranderd. Nu weet ik dat momenten vluchtig zijn, en dat foto's een prachtig cadeau zijn voor vandaag - maar een ongelooflijke schat voor de toekomst."
+      }
+    ]
+  }
+}

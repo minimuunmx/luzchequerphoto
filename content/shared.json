@@ -1,0 +1,23 @@
+{
+  "about": {
+    "image": "/luzchequer.jpg",
+    "label_en": "About Me",
+    "label_nl": "Over Mij",
+    "heading_en": "A little more about me",
+    "heading_nl": "Even iets meer over mij"
+  },
+  "contact": {
+    "label_en": "Get in Touch",
+    "label_nl": "Neem Contact Op",
+    "heading_en": "Let's create something beautiful together",
+    "heading_nl": "Laten we samen iets moois maken",
+    "description_en": "I'm always happy to help you with any questions you might have.",
+    "description_nl": "Ik help je graag met al je vragen.",
+    "email": "luzchequer@gmail.com",
+    "phone": "+31 6 26169125",
+    "whatsapp_url": "https://wa.me/527713960683",
+    "instagram_handle": "@luzchequerphoto",
+    "instagram_url": "https://instagram.com/luzchequerphoto",
+    "location": "Den Bosch, Nederland"
+  }
+}

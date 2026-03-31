@@ -1,0 +1,55 @@
+{
+  "hero_image": "/porfolio/families/17.jpg",
+  "title_en": "For Families",
+  "title_nl": "Voor Gezinnen",
+  "hero_description_en": "Capturing the special seasons of life. Maternity, newborn, baby, family and milestone photography with a natural, heartfelt and timeless approach.",
+  "hero_description_nl": "Het vastleggen van de bijzondere seizoenen van het leven. Zwangerschap, newborn, baby, gezins- en milestonefotografie met een natuurlijke, oprechte en tijdloze aanpak.",
+  "intro_heading_en": "I know how quickly life changes",
+  "intro_heading_nl": "Ik weet hoe snel het leven verandert",
+  "intro_text_en": "Moments are fleeting, and photographs are a beautiful gift for today - but an incredible treasure for the future. I focus on preserving meaningful memories with a warm, natural style that feels authentic to your family.",
+  "intro_text_nl": "Momenten zijn vluchtig, en foto's zijn een prachtig cadeau voor vandaag - maar een ongelooflijke schat voor de toekomst. Ik richt me op het bewaren van waardevolle herinneringen met een warme, natuurlijke stijl die authentiek aanvoelt voor jouw gezin.",
+  "gallery_images": [
+    { "image": "/porfolio/families/DSC04363.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/luzchequerphoto-84.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/DSC03801.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/DSC01540.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/luzchequerphoto-36.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/DSC04311.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/DSC02574-2.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/DSC03730.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/DSC03849.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/DSC01907.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/DSC04459.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/luzchequerphoto-47.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/DSC07795.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/gallery-69.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/DSC02146.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/DSC02618.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/DSC02584.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/DSC05773.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/DSC03833.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/DSC04435.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/DSC01613.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/MAE00764.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/DSC01941.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/DSC03821.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/17.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/21.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/26.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/33.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/56.jpg", "alt": "Family photography" },
+    { "image": "/porfolio/families/MAE00682.jpg", "alt": "Family photography" }
+  ],
+  "quote_en": "\u201cWe don't create pictures for today, but for eternity.\u201d",
+  "quote_nl": "\u201cWe maken geen foto's voor vandaag, maar voor de eeuwigheid.\u201d",
+  "about_paragraphs": [
+    {
+      "en": "Becoming a mom has transformed me in every possible way. It has challenged me and given me the greatest joy of my life, but it has also shown me how right every tia was when they said, 'Time flies.' It really does.",
+      "nl": "Moeder worden heeft me op alle mogelijke manieren veranderd. Het heeft me uitgedaagd en me de grootste vreugde van mijn leven gegeven, maar het heeft me ook laten zien hoe gelijk elke tia had toen ze zei: 'De tijd vliegt.' Dat is echt zo."
+    },
+    {
+      "en": "Now I know that moments are fleeting, and that photographs are a beautiful gift for today - but an incredible treasure for the future.",
+      "nl": "Nu weet ik dat momenten vluchtig zijn, en dat foto's een prachtig cadeau zijn voor vandaag - maar een ongelooflijke schat voor de toekomst."
+    }
+  ]
+}

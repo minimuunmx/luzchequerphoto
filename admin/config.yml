@@ -1,0 +1,162 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+media_folder: "porfolio"
+public_folder: "/porfolio"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      # ===== HOMEPAGE =====
+      - name: "homepage"
+        label: "Homepage"
+        file: "content/homepage.json"
+        format: "json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Family Hero Image", name: "family_image", widget: "image", media_folder: "/porfolio/families", public_folder: "/porfolio/families" }
+              - { label: "Brands Hero Image", name: "brands_image", widget: "image", media_folder: "/porfolio/brands", public_folder: "/porfolio/brands" }
+
+          - label: "Family Tab"
+            name: "family_tab"
+            widget: "object"
+            fields:
+              - { label: "Heading (EN)", name: "heading_en", widget: "string" }
+              - { label: "Heading (NL)", name: "heading_nl", widget: "string" }
+              - { label: "Description (EN)", name: "description_en", widget: "text" }
+              - { label: "Description (NL)", name: "description_nl", widget: "text" }
+              - { label: "Button Text (EN)", name: "cta_en", widget: "string" }
+              - { label: "Button Text (NL)", name: "cta_nl", widget: "string" }
+              - label: "Grid Images"
+                name: "grid_images"
+                widget: "list"
+                fields:
+                  - { label: "Image", name: "image", widget: "image", media_folder: "/porfolio/families", public_folder: "/porfolio/families" }
+                  - { label: "Alt Text", name: "alt", widget: "string", default: "Family photography" }
+
+          - label: "Brands Tab"
+            name: "brands_tab"
+            widget: "object"
+            fields:
+              - { label: "Heading (EN)", name: "heading_en", widget: "string" }
+              - { label: "Heading (NL)", name: "heading_nl", widget: "string" }
+              - { label: "Description (EN)", name: "description_en", widget: "text" }
+              - { label: "Description (NL)", name: "description_nl", widget: "text" }
+              - { label: "Button Text (EN)", name: "cta_en", widget: "string" }
+              - { label: "Button Text (NL)", name: "cta_nl", widget: "string" }
+              - label: "Grid Images"
+                name: "grid_images"
+                widget: "list"
+                fields:
+                  - { label: "Image", name: "image", widget: "image", media_folder: "/porfolio/brands", public_folder: "/porfolio/brands" }
+                  - { label: "Alt Text", name: "alt", widget: "string", default: "Brand photography" }
+
+          - label: "About Paragraphs"
+            name: "about"
+            widget: "object"
+            fields:
+              - label: "Paragraphs"
+                name: "paragraphs"
+                widget: "list"
+                fields:
+                  - { label: "English", name: "en", widget: "text" }
+                  - { label: "Dutch", name: "nl", widget: "text" }
+
+      # ===== FAMILIES PAGE =====
+      - name: "families"
+        label: "Families Page"
+        file: "content/families.json"
+        format: "json"
+        fields:
+          - { label: "Hero Image", name: "hero_image", widget: "image", media_folder: "/porfolio/families", public_folder: "/porfolio/families" }
+          - { label: "Page Title (EN)", name: "title_en", widget: "string" }
+          - { label: "Page Title (NL)", name: "title_nl", widget: "string" }
+          - { label: "Hero Description (EN)", name: "hero_description_en", widget: "text" }
+          - { label: "Hero Description (NL)", name: "hero_description_nl", widget: "text" }
+          - { label: "Intro Heading (EN)", name: "intro_heading_en", widget: "string" }
+          - { label: "Intro Heading (NL)", name: "intro_heading_nl", widget: "string" }
+          - { label: "Intro Text (EN)", name: "intro_text_en", widget: "text" }
+          - { label: "Intro Text (NL)", name: "intro_text_nl", widget: "text" }
+          - label: "Gallery Images"
+            name: "gallery_images"
+            widget: "list"
+            fields:
+              - { label: "Image", name: "image", widget: "image", media_folder: "/porfolio/families", public_folder: "/porfolio/families" }
+              - { label: "Alt Text", name: "alt", widget: "string", default: "Family photography" }
+          - { label: "Quote (EN)", name: "quote_en", widget: "string" }
+          - { label: "Quote (NL)", name: "quote_nl", widget: "string" }
+          - label: "About Paragraphs"
+            name: "about_paragraphs"
+            widget: "list"
+            fields:
+              - { label: "English", name: "en", widget: "text" }
+              - { label: "Dutch", name: "nl", widget: "text" }
+
+      # ===== BRANDS PAGE =====
+      - name: "brands"
+        label: "Brands Page"
+        file: "content/brands.json"
+        format: "json"
+        fields:
+          - { label: "Hero Image", name: "hero_image", widget: "image", media_folder: "/porfolio/brands", public_folder: "/porfolio/brands" }
+          - { label: "Page Title (EN)", name: "title_en", widget: "string" }
+          - { label: "Page Title (NL)", name: "title_nl", widget: "string" }
+          - { label: "Hero Description (EN)", name: "hero_description_en", widget: "text" }
+          - { label: "Hero Description (NL)", name: "hero_description_nl", widget: "text" }
+          - { label: "Intro Heading (EN)", name: "intro_heading_en", widget: "string" }
+          - { label: "Intro Heading (NL)", name: "intro_heading_nl", widget: "string" }
+          - { label: "Intro Text (EN)", name: "intro_text_en", widget: "text" }
+          - { label: "Intro Text (NL)", name: "intro_text_nl", widget: "text" }
+          - label: "Gallery Images"
+            name: "gallery_images"
+            widget: "list"
+            fields:
+              - { label: "Image", name: "image", widget: "image", media_folder: "/porfolio/brands", public_folder: "/porfolio/brands" }
+              - { label: "Alt Text", name: "alt", widget: "string", default: "Brand photography" }
+          - { label: "Quote (EN)", name: "quote_en", widget: "string" }
+          - { label: "Quote (NL)", name: "quote_nl", widget: "string" }
+          - label: "About Paragraphs"
+            name: "about_paragraphs"
+            widget: "list"
+            fields:
+              - { label: "English", name: "en", widget: "text" }
+              - { label: "Dutch", name: "nl", widget: "text" }
+
+      # ===== SHARED CONTENT =====
+      - name: "shared"
+        label: "Contact & About"
+        file: "content/shared.json"
+        format: "json"
+        fields:
+          - label: "About Section"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Profile Photo", name: "image", widget: "image" }
+              - { label: "Section Label (EN)", name: "label_en", widget: "string" }
+              - { label: "Section Label (NL)", name: "label_nl", widget: "string" }
+              - { label: "Heading (EN)", name: "heading_en", widget: "string" }
+              - { label: "Heading (NL)", name: "heading_nl", widget: "string" }
+          - label: "Contact Info"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Heading (EN)", name: "heading_en", widget: "string" }
+              - { label: "Heading (NL)", name: "heading_nl", widget: "string" }
+              - { label: "Description (EN)", name: "description_en", widget: "text" }
+              - { label: "Description (NL)", name: "description_nl", widget: "text" }
+              - { label: "Section Label (EN)", name: "label_en", widget: "string" }
+              - { label: "Section Label (NL)", name: "label_nl", widget: "string" }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Phone", name: "phone", widget: "string" }
+              - { label: "WhatsApp URL", name: "whatsapp_url", widget: "string" }
+              - { label: "Instagram Handle", name: "instagram_handle", widget: "string" }
+              - { label: "Instagram URL", name: "instagram_url", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }

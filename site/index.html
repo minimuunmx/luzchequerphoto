@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luz Chequer Photo</title>
+    <link rel="stylesheet" href="/site/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Capriola&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar--transparent" id="navbar">
+        <a href="#home" class="nav-logo">
+            <img src="/logo/luzchequerphoto-logo.png" alt="Luz Chequer Photo" class="logo-dark">
+            <img src="/logo/luzchequerphoto-logo-b.png" alt="Luz Chequer Photo" class="logo-light">
+            <svg class="nav-home-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </a>
+        <div class="nav-links" id="navLinks">
+            <a href="/site/" data-en="Home" data-nl="Home">Home</a>
+            <a href="/site/families.html" data-en="Families" data-nl="Gezinnen">Families</a>
+            <a href="/site/brands.html" data-en="Brands" data-nl="Merken">Brands</a>
+            <a href="#about" data-en="About" data-nl="Over mij">About</a>
+            <a href="#contact" data-en="Contact" data-nl="Contact">Contact</a>
+        </div>
+        <div class="nav-right">
+            <button class="lang-toggle" id="langToggle" title="Switch language">EN</button>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="/site/" data-en="Home" data-nl="Home">Home</a>
+        <a href="/site/families.html" data-en="Families" data-nl="Gezinnen">Families</a>
+        <a href="/site/brands.html" data-en="Brands" data-nl="Merken">Brands</a>
+        <a href="#about" data-en="About" data-nl="Over mij">About</a>
+        <a href="#contact" data-en="Contact" data-nl="Contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="home-hero" id="home">
+        <div class="home-hero__image">
+            <img src="/porfolio/families/DSC01907.jpg" alt="Family Photography" id="heroImg" data-family="/porfolio/families/DSC01907.jpg" data-brands="/porfolio/brands/DSC03379.jpg">
+        </div>
+        <div class="home-hero__logo">
+            <img src="/logo/luzchequerphoto-logo-b.png" alt="Luz Chequer Photo">
+        </div>
+    </section>
+
+    <!-- Tab Toggle -->
+    <section class="home-tabs">
+        <div class="home-tabs__switcher">
+            <div class="home-tabs__slider" id="tabSlider"></div>
+            <button class="home-tabs__btn active" data-tab="family" id="tabFamily">
+                <span data-en="Family" data-nl="Gezin">Family</span>
+            </button>
+            <button class="home-tabs__btn" data-tab="brands" id="tabBrands">
+                <span data-en="Brands" data-nl="Merken">Brands</span>
+            </button>
+        </div>
+
+        <!-- Family Content -->
+        <div class="home-tabs__content active" id="contentFamily">
+            <h2 data-en="Maternity, newborn, baby, family and milestone photography." data-nl="Zwangerschap, newborn, baby, gezins- en milestonefotografie.">Maternity, newborn, baby, family and milestone photography.</h2>
+            <p data-en="A space for motherhood, family connection, and the moments you'll want to remember for years to come. Created with a natural, heartfelt and timeless approach." data-nl="Een plek voor moederschap, familieverbinding en de momenten die je nog jaren wilt herinneren. Gemaakt met een natuurlijke, oprechte en tijdloze aanpak.">A space for motherhood, family connection, and the moments you'll want to remember for years to come. Created with a natural, heartfelt and timeless approach.</p>
+            <div class="home-tabs__grid">
+                <div class="home-tabs__grid-item"><img src="/porfolio/families/DSC04363.jpg" alt="Family photography" loading="lazy"></div>
+                <div class="home-tabs__grid-item"><img src="/porfolio/families/luzchequerphoto-84.jpg" alt="Family photography" loading="lazy"></div>
+                <div class="home-tabs__grid-item"><img src="/porfolio/families/DSC03801.jpg" alt="Family photography" loading="lazy"></div>
+                <div class="home-tabs__grid-item"><img src="/porfolio/families/DSC01540.jpg" alt="Family photography" loading="lazy"></div>
+                <div class="home-tabs__grid-item"><img src="/porfolio/families/luzchequerphoto-36.jpg" alt="Family photography" loading="lazy"></div>
+                <div class="home-tabs__grid-item"><img src="/porfolio/families/DSC04311.jpg" alt="Family photography" loading="lazy"></div>
+            </div>
+            <a href="/site/families.html" class="home-tabs__cta" data-en="See all family work" data-nl="Bekijk al het gezinswerk">See all family work</a>
+        </div>
+
+        <!-- Brands Content -->
+        <div class="home-tabs__content" id="contentBrands">
+            <h2 data-en="Photo, video, brand content, product imagery, founder sessions and social media content." data-nl="Foto, video, merkcontent, productfotografie, founder-sessies en social media content.">Photo, video, brand content, product imagery, founder sessions and social media content.</h2>
+            <p data-en="A space for businesses and founders who need strong, intentional visuals to show up consistently and professionally online." data-nl="Een plek voor bedrijven en founders die sterke, doordachte beelden nodig hebben om consistent en professioneel online aanwezig te zijn.">A space for businesses and founders who need strong, intentional visuals to show up consistently and professionally online.</p>
+            <div class="home-tabs__grid">
+                <div class="home-tabs__grid-item"><img src="/porfolio/brands/DSC03375.jpg" alt="Brand photography" loading="lazy"></div>
+                <div class="home-tabs__grid-item"><img src="/porfolio/brands/DSC07817.jpg" alt="Brand photography" loading="lazy"></div>
+                <div class="home-tabs__grid-item"><img src="/porfolio/brands/DSC05580.jpg" alt="Brand photography" loading="lazy"></div>
+                <div class="home-tabs__grid-item"><img src="/porfolio/brands/DSC09235.jpg" alt="Brand photography" loading="lazy"></div>
+                <div class="home-tabs__grid-item"><img src="/porfolio/brands/DSC07991.jpg" alt="Brand photography" loading="lazy"></div>
+                <div class="home-tabs__grid-item"><img src="/porfolio/brands/MAURO-71-2.jpg" alt="Brand photography" loading="lazy"></div>
+            </div>
+            <a href="/site/brands.html" class="home-tabs__cta" data-en="See all brand work" data-nl="Bekijk al het merkwerk">See all brand work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-grid">
+            <div class="about-image">
+                <img src="/luzchequer.jpg" alt="Luz Chequer">
+                <div class="about-shape"></div>
+            </div>
+            <div class="about-content">
+                <span class="section-label" data-en="About Me" data-nl="Over Mij">About Me</span>
+                <h2 data-en="A little more about me" data-nl="Even iets meer over mij">A little more about me</h2>
+                <p data-en="Hi! I'm so happy to see you here. Welcome! As long as I can remember, I've always loved capturing moments: friends, family, things, and places." data-nl="Hoi! Wat leuk dat je hier bent. Welkom! Zolang ik me kan herinneren, heb ik altijd al graag momenten vastgelegd: vrienden, familie, dingen en plekken.">Hi! I'm so happy to see you here. Welcome! As long as I can remember, I've always loved capturing moments: friends, family, things, and places.</p>
+                <p data-en="I studied Fashion Design and graduated with honors at IBERO in Mexico City, where I took photography and editing classes. That experience gave me a strong technical foundation, which I later used for different projects and eventually for my own business." data-nl="Ik heb Modeontwerp gestudeerd en cum laude afgestudeerd aan IBERO in Mexico-Stad, waar ik fotografie- en bewerkingslessen volgde. Die ervaring gaf me een sterke technische basis, die ik later gebruikte voor verschillende projecten en uiteindelijk voor mijn eigen bedrijf.">I studied Fashion Design and graduated with honors at IBERO in Mexico City, where I took photography and editing classes. That experience gave me a strong technical foundation, which I later used for different projects and eventually for my own business.</p>
+                <p data-en="Becoming a mom has transformed me in every possible way. Now I know that moments are fleeting, and that photographs are a beautiful gift for today - but an incredible treasure for the future." data-nl="Moeder worden heeft me op alle mogelijke manieren veranderd. Nu weet ik dat momenten vluchtig zijn, en dat foto's een prachtig cadeau zijn voor vandaag - maar een ongelooflijke schat voor de toekomst.">Becoming a mom has transformed me in every possible way. Now I know that moments are fleeting, and that photographs are a beautiful gift for today - but an incredible treasure for the future.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-grid">
+            <div class="contact-info">
+                <span class="section-label" data-en="Get in Touch" data-nl="Neem Contact Op">Get in Touch</span>
+                <h2 data-en="Let's create something beautiful together" data-nl="Laten we samen iets moois maken">Let's create something beautiful together</h2>
+                <p data-en="I'm always happy to help you with any questions you might have." data-nl="Ik help je graag met al je vragen.">I'm always happy to help you with any questions you might have.</p>
+                <div class="contact-details">
+                    <a href="mailto:luzchequer@gmail.com" class="contact-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+                        luzchequer@gmail.com
+                    </a>
+                    <a href="tel:+31626169125" class="contact-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        +31 6 26169125
+                    </a>
+                    <a href="https://wa.me/527713960683" class="contact-link" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.555 4.122 1.527 5.855L.06 23.647a.5.5 0 0 0 .608.608l5.792-1.467A11.94 11.94 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.8 9.8 0 0 1-5.283-1.545l-.379-.225-3.927.995.995-3.927-.225-.379A9.8 9.8 0 0 1 2.182 12c0-5.422 4.396-9.818 9.818-9.818S21.818 6.578 21.818 12s-4.396 9.818-9.818 9.818z"/></svg>
+                        WhatsApp
+                    </a>
+                    <a href="https://instagram.com/luzchequerphoto" class="contact-link" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+                        @luzchequerphoto
+                    </a>
+                    <div class="contact-link location">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        Den Bosch, Nederland
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-wrapper">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="name" required placeholder=" ">
+                        <label data-en="Name" data-nl="Naam">Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" required placeholder=" ">
+                        <label data-en="Email" data-nl="E-mail">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="5" required placeholder=" "></textarea>
+                        <label data-en="Message" data-nl="Bericht">Message</label>
+                    </div>
+                    <button type="submit" class="submit-btn" data-en="Send Message" data-nl="Verstuur Bericht">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="/logo/luzchequerphoto-logo-b.png" alt="Luz Chequer Photo" class="footer-logo">
+            <div class="footer-social">
+                <a href="https://instagram.com/luzchequerphoto" target="_blank" aria-label="Instagram">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+                </a>
+                <a href="https://wa.me/527713960683" target="_blank" aria-label="WhatsApp">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.555 4.122 1.527 5.855L.06 23.647a.5.5 0 0 0 .608.608l5.792-1.467A11.94 11.94 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.8 9.8 0 0 1-5.283-1.545l-.379-.225-3.927.995.995-3.927-.225-.379A9.8 9.8 0 0 1 2.182 12c0-5.422 4.396-9.818 9.818-9.818S21.818 6.578 21.818 12s-4.396 9.818-9.818 9.818z"/></svg>
+                </a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Luz Chequer Photo. Den Bosch, Nederland.</p>
+        </div>
+    </footer>
+
+    <script src="/site/content-loader.js"></script>
+    <script src="/site/script.js"></script>
+</body>
+</html>
