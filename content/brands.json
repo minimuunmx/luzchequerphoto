@@ -1,36 +1,69 @@
 {
-  "hero_image": "/porfolio/brands/DSC03375.jpg",
-  "title_en": "For Brands",
-  "title_nl": "Voor Merken",
-  "hero_description_en": "A space for businesses and founders who need strong, intentional visuals to show up consistently and professionally online.",
-  "hero_description_nl": "Een plek voor bedrijven en ondernemers die sterke, doordachte visuals nodig hebben om consistent en professioneel online aanwezig te zijn.",
-  "intro_heading_en": "Let's tell your story",
-  "intro_heading_nl": "Laten we jouw verhaal vertellen",
-  "intro_text_en": "Having my own business and sharing not only photos and videos of products, but also the storytelling behind them - their creation, vision, and values - has been an incredible journey. I truly love working with entrepreneurs and business owners, as it is always an enriching and inspiring experience.",
-  "intro_text_nl": "Mijn eigen bedrijf hebben en niet alleen foto's en video's van producten delen, maar ook het verhaal erachter - de creatie, visie en waarden - is een ongelooflijke reis geweest. Ik vind het geweldig om met ondernemers te werken, omdat het altijd een verrijkende en inspirerende ervaring is.",
+  "quote_nl": "“Laten we samenwerken”",
   "gallery_images": [
-    { "image": "/porfolio/brands/DSC03375.jpg", "alt": "Brand photography" },
-    { "image": "/porfolio/brands/DSC03379.jpg", "alt": "Brand photography" },
-    { "image": "/porfolio/brands/DSC03391.jpg", "alt": "Brand photography" },
-    { "image": "/porfolio/brands/DSC07817.jpg", "alt": "Brand photography" },
-    { "image": "/porfolio/brands/DSC05580.jpg", "alt": "Brand photography" },
-    { "image": "/porfolio/brands/DSC09235.jpg", "alt": "Brand photography" },
-    { "image": "/porfolio/brands/DSC07991.jpg", "alt": "Brand photography" },
-    { "image": "/porfolio/brands/DSC07994.jpg", "alt": "Brand photography" },
-    { "image": "/porfolio/brands/MAURO-71-2.jpg", "alt": "Brand photography" },
-    { "image": "/porfolio/brands/DSC03404.jpg", "alt": "Brand photography" },
-    { "image": "/porfolio/brands/DSC03407.jpg", "alt": "Brand photography" }
-  ],
-  "quote_en": "\u201cLet's work together\u201d",
-  "quote_nl": "\u201cLaten we samenwerken\u201d",
-  "about_paragraphs": [
     {
-      "en": "I studied Fashion Design and graduated with honors at IBERO in Mexico City, where I took photography and editing classes. That experience gave me a strong technical foundation, which I later used for different projects and eventually for my own business - I created and still run my own baby clothing brand.",
-      "nl": "Ik heb Modeontwerp gestudeerd en cum laude afgestudeerd aan IBERO in Mexico-Stad, waar ik fotografie- en bewerkingslessen volgde. Die ervaring gaf me een sterke technische basis, die ik later gebruikte voor verschillende projecten en uiteindelijk voor mijn eigen bedrijf - ik heb mijn eigen babykledingmerk opgericht en run het nog steeds."
+      "image": "/porfolio/brands/DSC03375.jpg",
+      "alt": "Brand photography"
     },
     {
-      "en": "Along the way, I've learned so much about social media and how to create content that is useful, meaningful, and truly helps local businesses connect with their audience.",
-      "nl": "Onderweg heb ik zoveel geleerd over social media en hoe je content kunt maken die nuttig, betekenisvol is en lokale bedrijven echt helpt om verbinding te maken met hun publiek."
+      "image": "/porfolio/brands/DSC03379.jpg",
+      "alt": "Brand photography"
+    },
+    {
+      "image": "/porfolio/brands/DSC03391.jpg",
+      "alt": "Brand photography"
+    },
+    {
+      "image": "/porfolio/brands/DSC07817.jpg",
+      "alt": "Brand photography"
+    },
+    {
+      "image": "/porfolio/brands/DSC05580.jpg",
+      "alt": "Brand photography"
+    },
+    {
+      "image": "/porfolio/brands/DSC09235.jpg",
+      "alt": "Brand photography"
+    },
+    {
+      "image": "/porfolio/brands/DSC07991.jpg",
+      "alt": "Brand photography"
+    },
+    {
+      "image": "/porfolio/brands/DSC07994.jpg",
+      "alt": "Brand photography"
+    },
+    {
+      "image": "/porfolio/brands/MAURO-71-2.jpg",
+      "alt": "Brand photography"
+    },
+    {
+      "image": "/porfolio/brands/DSC03404.jpg",
+      "alt": "Brand photography"
+    },
+    {
+      "image": "/porfolio/brands/DSC03407.jpg",
+      "alt": "Brand photography"
     }
-  ]
+  ],
+  "title_nl": "Voor Merken",
+  "hero_description_nl": "Een plek voor bedrijven en ondernemers die sterke, doordachte visuals nodig hebben om consistent en professioneel online aanwezig te zijn.",
+  "intro_text_en": "Having my own business and sharing not only photos and videos of products, but also the storytelling behind them - their creation, vision, and values - has been an incredible journey. I truly love working with entrepreneurs and business owners, as it is always an enriching and inspiring experience.",
+  "quote_en": "“Let's work together”",
+  "intro_heading_nl": "Laten we jouw verhaal vertellen",
+  "title_en": "For Brands",
+  "hero_description_en": "A space for businesses and founders who need strong, intentional visuals to show up consistently and professionally online.",
+  "hero_image": "/porfolio/brands/DSC03375.jpg",
+  "about_paragraphs": [
+    {
+      "en": "Hola, I’m Luz. \n\nWith a background in Fashion Design, photography, and editing — along with the experience of building my own brand — I bring both creativity and business understanding into every project.",
+      "nl": "Hola! Ik ben Luz.\nMet een achtergrond in modeontwerp, fotografie en editing — samen met de ervaring van het opbouwen van mijn eigen merk — breng ik in elk project zowel creativiteit als zakelijk inzicht mee.\n"
+    },
+    {
+      "en": "I work with brands, founders, and small businesses to create photo, video, and content that not only looks beautiful, but also supports connection, clarity, and growth.",
+      "nl": "Ik werk met merken, founders en kleine bedrijven om foto’s, video’s en content te creëren die er niet alleen mooi uitzien, maar ook bijdragen aan verbinding, duidelijkheid en groei."
+    }
+  ],
+  "intro_heading_en": "Let's tell your story",
+  "intro_text_nl": "Mijn eigen bedrijf hebben en niet alleen foto's en video's van producten delen, maar ook het verhaal erachter - de creatie, visie en waarden - is een ongelooflijke reis geweest. Ik vind het geweldig om met ondernemers te werken, omdat het altijd een verrijkende en inspirerende ervaring is."
 }
