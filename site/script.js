@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded', () => {
     fadeElements.forEach(el => fadeObserver.observe(el));
 
 
-    // ── Contact Form (Netlify Forms) ─────────
+    // ── Contact Form (Web3Forms) ───────────
     const contactForm = document.getElementById('contactForm');
     if (contactForm) contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
@@ -203,10 +203,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const originalText = btn.textContent;
         const formData = new FormData(contactForm);
 
-        fetch('/', {
+        fetch('https://api.web3forms.com/submit', {
             method: 'POST',
-            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-            body: new URLSearchParams(formData).toString()
+            body: formData
+        }).then(res => res.json()).then(data => {
+            if (!data.success) throw new Error('Form failed');
         }).then(() => {
             btn.textContent = currentLang === 'nl' ? 'Verzonden!' : 'Sent!';
             btn.style.background = '#5F929F';
